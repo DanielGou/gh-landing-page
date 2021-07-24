@@ -1,7 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
 .App{
     width: 100vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: 0% 100px;
 }
 
 #landingPicture{
     width: 100%;
+}
+
+#Form{
+    display: block;
+}
+
+.title{
+    color: rgb(31, 124, 191);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#CardComponents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 100px;
+    max-width: 1500px;
+}
+
+.App button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(31, 124, 191);
 }

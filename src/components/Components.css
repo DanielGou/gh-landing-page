@@ -11,7 +11,7 @@
 
 .Header div{
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     display: flex;
     align-items: center;
     padding: 10px 20px;
@@ -22,8 +22,9 @@
 }
 
 .Form{
-    width: 430px;
-    height: 410px;
+    width: 350px;
+    height: 340px;
+    background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.078);
     border-radius: 5px;
     box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.085);
@@ -38,7 +39,7 @@
     color: rgb(31, 124, 191);
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 25px;
 }
 
 .Form form {
@@ -59,12 +60,38 @@
 }
 
 #btnSubmitForm{
-    width: 40%;
-    height: 40px;
+    width: 35%;
+    height: 30px;
     border: none;
     margin-top: 30px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: white;
     background-color: rgb(31, 124, 191);
+}
+
+.Card{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 40px;
+    margin: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.174);
+    background-image: url("../assets/Linha.png");
+    background-repeat: no-repeat;
+    background-position:  92% 92%;
+}
+
+.titleCard{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.textCard{
+    padding-top: 20px;
+    font-size: 15px;
 }
