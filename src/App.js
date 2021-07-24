@@ -13,11 +13,14 @@ function App() {
 
       <img id="landingPicture" src={landingPicture} alt=""/>
       
-      <Form id="Form"/>
+      <div>
+        <Form/>
+        <div className='title'>Desenvolvimento de produtos Digitais</div>
+        <div>Brands are built based on the DNA of the companies, while respecting</div>
+      </div>
+
       
-      <div className='title'>Desenvolvimento de produtos Digitais</div>
       
-      <div>Brands are built based on the DNA of the companies, while respecting</div>
       <div>
         Brands are built based on the DNA of the companies, while respecting its values and principles. 
         They are built od strategic positioning and through the true identification with people both inside and outside the enterprise.
