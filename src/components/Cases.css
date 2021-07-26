@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.Case{
+    width: 350px;
+    height: 350px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 30px;
+}
+
+.Case:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+#blue{
+    background-color: rgb(31, 124, 191);
+    color: white;
+}
+
+#image{
+    background-image: url("../assets/banner.png");
+    background-size: 1400px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    color: white;
+}
+
+#grey{
+    background-color: rgb(225, 225, 225);
+}
+
+#grey .topics{
+    color: rgb(0, 0, 0);
+}
+
+#grey .caseSeta img{
+    filter:  brightness(0);
+}
+
+.caseSeta{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 400;
+    margin-bottom: 225px;
+}
+
+.caseSeta img{
+    width: 20%;
+    padding: 0 10px;
+    filter: contrast(100%) brightness(1000%);
+}
+
+.caseTitle{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.caseText{
+    width: 55%;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.topics{
+    color: rgb(230, 230, 230);
+}
