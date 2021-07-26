@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 .Case{
-    width: 350px;
-    height: 350px;
+    width: 310px;
+    height: 310px;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@
     justify-content: flex-end;
     align-items: center;
     font-weight: 400;
-    margin-bottom: 225px;
+    margin-bottom: 170px;
 }
 
 .caseSeta img{
@@ -72,3 +72,4 @@
 .topics{
     color: rgb(230, 230, 230);
 }
+

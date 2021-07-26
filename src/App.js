@@ -4,8 +4,10 @@ import Header from './components/Header';
 import Form from "./components/Form"
 import Card from './components/Card';
 import Case from './components/Case'
+import Footer from './components/Footer';
 
 import landingPicture from "./assets/landingPicture.jpg"
+import seta from "./assets/seta.png"
 
 function App() {
   return (
@@ -42,12 +44,19 @@ function App() {
         <button>Entre em contato</button>
       </div>
 
-      <div className="title">Cases</div>
+      <div className="title" style={{padding: "0 5%", marginTop: "100px"}}>Cases</div>
 	  <div className="cases">
-		<Case title="Godoc" text="Godoc is an app for scheduling of medical appointments." topics="branding, interaction" theme="blue"/>
-		<Case title="Gerencial" text="Gerencial is an office of auditing, accounting and consulting." topics="branding, interaction" theme="image"/>
-		<Case title="Vetherapy" text="Vetherapy is a San Francisco startup. Focused on therapies from stem cells." topics="branding, interaction" theme="grey"/>
+		  <Case title="Godoc" text="Godoc is an app for scheduling of medical appointments." topics="branding, interaction" theme="blue"/>
+		  <Case title="Gerencial" text="Gerencial is an office of auditing, accounting and consulting." topics="branding, interaction" theme="image"/>
+		  <Case title="Vetherapy" text="Vetherapy is a San Francisco startup. Focused on therapies from stem cells." topics="branding, interaction" theme="grey"/>
 	  </div>
+
+    <div className="seta">
+      <img src={seta} alt="seta"/>
+      <div className="title">All projects</div> 
+    </div>
+
+    <Footer/>
     </div>
   );
 }
