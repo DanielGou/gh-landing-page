@@ -16,7 +16,7 @@ function App() {
 
       <img style={{width: "100vw"}} src={landingPicture} alt=""/>
       
-      <div style={{padding: "100px"}}>
+      <div style={{padding: "5%"}}>
         <Form/>
         
         <div className='title'>Desenvolvimento de produtos Digitais</div>

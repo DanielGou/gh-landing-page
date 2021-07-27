@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 70px;
+    padding: 10px 50px;
 }
 
 .Header div{
@@ -22,16 +22,16 @@
 }
 
 .Form{
-    width: 310px;
+    max-width: 310px;
     height: 300px;
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.078);
     border-radius: 5px;
     box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.085);
     display: flex;
-    padding: 30px;
+    padding: 40px 60px;
     margin-right: 100px;
-    margin-top: -220px;
+    margin-top: -20%;
     align-items: center;
     float: right;
     flex-direction: column;
@@ -55,8 +55,8 @@
 }
 
 .Form form input{
+    width: 105%;
     border: none;
-    width: 70%;
     margin: 20px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.044);
 }
@@ -100,22 +100,55 @@
 }
 
 .Footer{
-    height: 250px;
     background-color: rgb(31, 124, 191);
     margin-top: 100px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 30px;
     color: white;
-    padding: 50px;
+    padding: 90px;
 }
 
 .locais{
     display: flex;
-    width: 30%;
+    width: 44%;
     justify-content: space-around;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 10px;
-    padding: 0 3% ;
+}
+
+@media (max-width: 1003px){
+    .Form{
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 680px){
+    
+    .Header div div{
+        display: none;
+    }
+    
+    .Form{
+        margin-top: -30%;
+    }
+    
+    .locais{
+        width: auto;
+    }
+    
+}
+
+@media (max-width: 425px){  
+    .Form{
+        width: 80%;
+    }
+    
+    .Footer{
+        padding: 20px;
+    }
 }
