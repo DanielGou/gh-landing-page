@@ -19,7 +19,31 @@ function Form(){
             })
         }
 
+        if( name === "" && name.length <= 2 && typeof username !== 'string'){
+            alert("Nome inválido!")
+            return
+        }
+        
+        if( phone === "" && phone.length < 8 && typeof username !== 'string'){
+            alert("Número inválido!")
+            return
+        }
+
+        var regex = /\S+@\S+\.\S+/;
+        if( regex.test(email) === false){
+            alert("email inválido!")
+            return
+        }
+
+
         fetch("http://localhost:9000/api/add", options)
+            .then(res=>{
+                return res.json()
+            }).then(data=>{
+                if(data.status === "error"){
+                    alert("[ERROR] Envie os contatos novamente.")
+                }
+            })
 
     }
 
