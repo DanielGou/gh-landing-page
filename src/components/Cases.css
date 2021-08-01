@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: flex-end;
     margin: 30px;
+    position: relative;
 }
 
 .Case:hover{
@@ -48,7 +49,8 @@
     justify-content: flex-end;
     align-items: center;
     font-weight: 400;
-    margin-bottom: 170px;
+    position: absolute; top: 0px;
+    margin: 20px;
 }
 
 .caseSeta img{

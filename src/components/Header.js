@@ -9,12 +9,11 @@ function Header(){
             <img src={logo} alt="logo"/>
             <div>
                 <div>
-
-                <div>Work</div>
-                <div>Service</div>
-                <div>About</div>
-                <div>Contact</div>
-                <div>Bra/Eua</div>
+                    <div>Work</div>
+                    <div>Service</div>
+                    <div>About</div>
+                    <div>Contact</div>
+                    <div>Bra/Eua</div>
                 </div>
                 <img src={menu} alt=""/>
             </div>

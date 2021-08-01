@@ -45,18 +45,19 @@ function App() {
       </div>
 
       <div className="title" style={{padding: "0 5%", marginTop: "100px"}}>Cases</div>
-	  <div className="cases">
-		  <Case title="Godoc" text="Godoc is an app for scheduling of medical appointments." topics="branding, interaction" theme="blue"/>
-		  <Case title="Gerencial" text="Gerencial is an office of auditing, accounting and consulting." topics="branding, interaction" theme="image"/>
-		  <Case title="Vetherapy" text="Vetherapy is a San Francisco startup. Focused on therapies from stem cells." topics="branding, interaction" theme="grey"/>
-	  </div>
+      
+      <div className="cases">
+        <Case title="Godoc" text="Godoc is an app for scheduling of medical appointments." topics="branding, interaction" theme="blue"/>
+        <Case title="Gerencial" text="Gerencial is an office of auditing, accounting and consulting." topics="branding, interaction" theme="image"/>
+        <Case title="Vetherapy" text="Vetherapy is a San Francisco startup. Focused on therapies from stem cells." topics="branding, interaction" theme="grey"/>
+      </div>
 
-    <div className="seta">
-      <img src={seta} alt="seta"/>
-      <div className="title">All projects</div> 
-    </div>
+      <div className="seta">
+        <img src={seta} alt="seta"/>
+        <div className="title">All projects</div> 
+      </div>
 
-    <Footer/>
+      <Footer/>
     </div>
   );
 }
